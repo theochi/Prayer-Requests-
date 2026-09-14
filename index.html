@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <title>Prayer Requests</title>
+</head>
+<body>
+ <main>
+    <section id="prayer-wrapper">
+      <h1>PRAYER REQUESTS</h1>
+      <div id="prayer-search">
+      <textarea id="prayer" placeholder="What is your prayer request?"></textarea> 
+       <input id="submit" type="submit" onclick="fetchPrayerRequests()" value="SUBMIT" />
+      </div>
+      <div id="prayer-data" style="display: none;"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
